@@ -1,0 +1,18 @@
+PR Besok:
+1 Player berbentuk pesawat (wajib pake lineTo bukan gambar)
+2 Enemy berbentuk pesawat yang berbeda (wajib pake lineTo bukan gambar)
+3 Bullet berbentuk peluru (wajib pake lineTo bukan gambar)
+4 Peluru muncul di 2 titik
+5 Enemy bisa ke hit peluru (enemy hilang, peluru hilang)
+6 Score bertambah (di bawah lifeCount)
+7 Buat object power up heal -> kalo kena player / dapet lifeCount tambah 3
+
+tgl 10 Febuari 2022
+1) Tampil score di screen result, dan muncul seperti counter 
+(mulai dari 1 sampai score yg dituju)
+2) Counter bisa meng-handle angka besar misal 3000 selesai hitung 
+dalam waktu 1 detik (60 fps)
+3) Musuh punya nyawa (nyawanya ditulis) -> naik sesuai lamanya game
+4) Musuh baru mati kalau nyawanya habis + ada explosion visual effect
+5) Nyawa musuh berkurang ketika terkena peluru
+6) Player kelap-kelip selama 3s setelah terkena musuh
