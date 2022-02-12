@@ -8,11 +8,20 @@ PR Besok:
 7 Buat object power up heal -> kalo kena player / dapet lifeCount tambah 3
 
 tgl 10 Febuari 2022
-1) Tampil score di screen result, dan muncul seperti counter 
+1 Tampil score di screen result, dan muncul seperti counter 
 (mulai dari 1 sampai score yg dituju)
-2) Counter bisa meng-handle angka besar misal 3000 selesai hitung 
+2 Counter bisa meng-handle angka besar misal 3000 selesai hitung 
 dalam waktu 1 detik (60 fps)
-3) Musuh punya nyawa (nyawanya ditulis) -> naik sesuai lamanya game
-4) Musuh baru mati kalau nyawanya habis + ada explosion visual effect
-5) Nyawa musuh berkurang ketika terkena peluru
-6) Player kelap-kelip selama 3s setelah terkena musuh
+3 Musuh punya nyawa (nyawanya ditulis) -> naik sesuai lamanya game
+4 Musuh baru mati kalau nyawanya habis + ada explosion visual effect
+5 Nyawa musuh berkurang ketika terkena peluru
+6 Player kelap-kelip selama 3s setelah terkena musuh
+
+PR Sabtu:
+-> animasi kelap-kelip tapi g pake tween
+- enemy mantul ada gravitasi, force up force down
+-> player invulnerable waktu kelap-kelip
+-> kreasi power up (3), tiap power up beda icon
+-> enemy berbentuk bulat punya radius hit, radius sesuai life, life di atas 50 fix 100px
+-> bullet punya radius hit -> digambar pake arc
+-> kreasi visual effect pada saat bullet kena enemy
